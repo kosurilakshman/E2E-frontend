@@ -17,7 +17,7 @@ const ForgotPassword = () => {
     }
 
     try {
-      const response = await axios.post("https://e2e-backend-lkud.onrender.com/v1/ecommerce/api/forgot-password", {
+      const response = await axios.post("https://e2e-backend-dmsf.onrender.com/v1/ecommerce/api/forgot-password", {
         email,
       });
 

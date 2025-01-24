@@ -25,7 +25,7 @@ const ResetPassword = () => {
 
     try {
       // Send email and password to the backend
-      const response = await axios.post(`https://e2e-backend-lkud.onrender.com/v1/ecommerce/api/reset-password`, { email, password });
+      const response = await axios.post(`https://e2e-backend-dmsf.onrender.com/v1/ecommerce/api/reset-password`, { email, password });
 
       if (response.data.success) {
         toast.success("Password reset successfully! Please log in with your new password.");

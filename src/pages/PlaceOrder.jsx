@@ -15,7 +15,7 @@ const Orders = ({ token }) => {
     }
 
     try {
-      const response = await axios.get('https://e2e-backend-lkud.onrender.com/api/v1/orders', {
+      const response = await axios.get('https://e2e-backend-dmsf.onrender.com/api/v1/orders', {
         headers: {
           'Content-Type': 'application/json',
           auth: token,
@@ -82,7 +82,7 @@ const Orders = ({ token }) => {
                 <tr key={index} className="border-b hover:bg-gray-50">
                   <td className="px-6 py-4">
                     <img
-                      src={order.imgSrc ? `https://e2e-backend-lkud.onrender.com/images/${order.imgSrc}` : `${order.imgSrc}`}
+                      src={order.imgSrc ? `https://e2e-backend-dmsf.onrender.com/images/${order.imgSrc}` : `${order.imgSrc}`}
                       className="w-[140px] h-[140px] object-cover rounded-lg"
                       alt={order.name}
                     />

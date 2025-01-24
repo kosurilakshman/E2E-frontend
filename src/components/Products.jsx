@@ -71,7 +71,7 @@ const Products = () => {
                 <img
                   src={
                     item.imgSrc
-                      ? `https://e2e-backend-lkud.onrender.com/images/${item.imgSrc}`
+                      ? `https://e2e-backend-dmsf.onrender.com/images/${item.imgSrc}`
                       : `${item.imgSrc}`
                   }
                   alt={item.title}

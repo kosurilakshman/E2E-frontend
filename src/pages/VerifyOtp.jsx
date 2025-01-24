@@ -22,7 +22,7 @@ const VerifyOTP = ({ token }) => {
     try {
       // Send OTP and email to the API
       const response = await axios.post(
-        'https://e2e-backend-lkud.onrender.com/v1/ecommerce/api/verify-otp',
+        'https://e2e-backend-dmsf.onrender.com/v1/ecommerce/api/verify-otp',
         { otp, email }, // Send email along with OTP
         {
           headers: {

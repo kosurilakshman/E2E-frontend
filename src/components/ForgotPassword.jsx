@@ -15,7 +15,7 @@ const ForgotPassword = () => {
     }
 
     try {
-      const response = await axios.post("https://e2e-backend-lkud.onrender.com/api/food/forgot-password", { email });
+      const response = await axios.post("https://e2e-backend-dmsf.onrender.com/api/food/forgot-password", { email });
 
       if (response.data.success) {
         setTimeout(() => {

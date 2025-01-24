@@ -84,7 +84,7 @@ console.log("od", orderItems);
       
       };
       console.log("options", totalAmountWithShipping);
-      const res = await axios.post("https://e2e-backend-lkud.onrender.com/api/zing/createOrder", options,
+      const res = await axios.post("https://e2e-backend-dmsf.onrender.com/api/zing/createOrder", options,
       );
       const data = res.data;
       console.log("order data:", res.data);
@@ -115,7 +115,7 @@ console.log("od", orderItems);
           
           };
 
-          const res = await axios.post("https://e2e-backend-lkud.onrender.com/api/zing/verifyOrder",options2,
+          const res = await axios.post("https://e2e-backend-dmsf.onrender.com/api/zing/verifyOrder",options2,
             {
               headers: {
                 "Content-Type": "application/json",
