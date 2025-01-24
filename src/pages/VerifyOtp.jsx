@@ -36,7 +36,7 @@ const VerifyOTP = ({ token }) => {
       if (response.data.success) {
         console.log(response.data);
         toast.success("OTP verified. Redirecting...");
-        navigate(`/resetpassword`);
+        navigate(`/reset-password`);
       } else {
         console.log(response);
         toast.error(response.data.message || "Invalid OTP");
